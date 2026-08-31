@@ -1,0 +1,8 @@
+name = "smoke"
+
+[gas]
+gamma = 1.4
+
+[solver]
+cfl = 2.5
+scheme = "roe"

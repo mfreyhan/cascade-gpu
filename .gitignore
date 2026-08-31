@@ -1,0 +1,48 @@
+# --- Private working files: NEVER commit ---
+notes/
+CLAUDE.md
+
+# Build
+build*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+compile_commands.json
+
+# Solver output
+*.vts
+*.vtu
+*.vtk
+*.plt
+*.q
+*.xyz
+restart*.bin
+out/
+results/
+!cases/**/reference/*.csv
+
+# Profiling
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Python tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
