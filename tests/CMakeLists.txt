@@ -16,6 +16,8 @@ add_executable(cascade_tests
   test_field.cpp
   test_backend.cpp
   test_config.cpp
+  test_mesh.cpp
+  test_halo.cpp
 )
 
 target_link_libraries(cascade_tests PRIVATE cascade_core Catch2::Catch2WithMain)

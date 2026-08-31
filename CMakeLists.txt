@@ -36,6 +36,8 @@ endif()
 # ---------------------------------------------------------------------------
 add_library(cascade_core
   src/core/Config.cpp
+  src/mesh/Block.cpp
+  src/mesh/Connectivity.cpp
 )
 add_library(cascade::core ALIAS cascade_core)
 
