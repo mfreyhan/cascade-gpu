@@ -1,0 +1,11 @@
+# Normalise line endings in the repository to LF. CI builds on both Linux and
+# Windows; without this, files committed from Windows arrive at the Linux job
+# with CRLF and shell scripts / heredocs break in ways that are tedious to
+# diagnose.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.vts binary
+*.vtu binary
